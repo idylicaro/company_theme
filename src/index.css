@@ -1,8 +1,30 @@
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #818181;
+}
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
 .navbar {
   margin-bottom: 0;
   background-color: #f4511e;
   z-index: 9999;
   border: 0;
+  font-family: Montserrat, sans-serif;
   font-size: 12px !important;
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
@@ -27,6 +49,7 @@
   background-color: #f4511e;
   color: #fff;
   padding: 100px 25px;
+  font-family: Montserrat, sans-serif;
 }
 
 .container-fluid {
@@ -146,3 +169,4 @@ footer .glyphicon {
   margin-bottom: 20px;
   color: #f4511e;
 }
+
